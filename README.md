@@ -4,7 +4,6 @@ xG analysis comparing Finnish players' shooting efficiency to other top professi
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
 ![Data Source](https://img.shields.io/badge/Data-MoneyPuck-green)
-![AI Assisted](https://img.shields.io/badge/Workflow-AI--Native-purple)
 
 ## Project Overview
 This project investigates whether Finnish NHL players exhibit systematic zone-specific shooting efficiency patterns relative to all other NHL players, using Expected Goals (xG) as the benchmark. The project uses regular season data from seasons 2022-2023, 2023-2024 and 2024-2025. 
