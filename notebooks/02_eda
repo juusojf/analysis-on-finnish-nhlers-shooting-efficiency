@@ -1,0 +1,83 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "272360ed-2ff8-4f8d-970d-eff875c6946e",
+   "metadata": {},
+   "source": [
+    "# 01 - Exploratory Data Analysis\n",
+    "\n",
+    "Project: Finnish NHL Players: A Zone-Level Shooting Efficiency Analysis\n",
+    "\n",
+    "## Purpose \n",
+    "Explore the combined shot dataset to understand its structure and key distributions\n",
+    "before moving to formal analysis. This notebook identifies patterns, checks assumptions,\n",
+    "and guides the analytical decisions made in subsequent notebooks.\n",
+    "  \n",
+    "## Input\n",
+    "- data/processed/shots_combined.csv\n",
+    "\n",
+    "## Questions explored\n",
+    "1. How are shots distributed across nationalities?\n",
+    "2. How are shots distributed across ice zones?\n",
+    "3. How do Finnish players compare to the NHL population in basic shooting metrics?\n",
+    "4. Are there any unexpected patterns or data quality issues?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "fb08cb32-6c73-44d8-b6a5-952a606eaa1e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Dataset loaded: 338141 rows, 126 columns\n"
+     ]
+    }
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import matplotlib.pyplot as plt\n",
+    "from pathlib import Path\n",
+    "\n",
+    "PROCESSED_DATA = Path('../data/processed')\n",
+    "dataframe = pd.read_csv(PROCESSED_DATA / 'shots_combined.csv')\n",
+    "\n",
+    "print(f\"Dataset loaded: {len(dataframe)} rows, {dataframe.shape[1]} columns\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "da52b245-5a40-404c-831c-aca0eea2a492",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
