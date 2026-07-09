@@ -18,8 +18,8 @@ This project doesn't look into individual Finnish players but rather investigate
 ## Key findings
 
 **Blue line - statistically significant weakness**
-Finnish NHL players show a consistent and statistically significant 
-underperformance from the blue line zone relative to the NHL average:
+
+Finnish NHL players show a consistent and statistically significant underperformance from the blue line zone relative to the NHL average:
 - Three-season average: -23.1% vs. NHL average
 - 95% bootstrapped confidence interval: [-42.2%, -2.4%] - does not cross zero
 - Pattern is consistent and worsening: 2022–23: -9.8%, 2023–24: -30.3%, 2024–25: -32.3%
