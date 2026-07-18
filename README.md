@@ -96,9 +96,7 @@ analysis-on-finnish-nhlers-shooting-efficiency/
 │
 ├── visualizations/ # Publishable charts
 |
-├── docs/
-│   └── AI_WORKFLOW.md
-|
+├── AI_WORKFLOW.md
 ├── requirements.txt
 ├── .gitignore
 └── README.md
