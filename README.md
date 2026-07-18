@@ -21,7 +21,7 @@ This project doesn't look into individual Finnish players but rather investigate
 
 Finnish NHL players show a consistent and statistically significant underperformance from the blue line zone relative to the NHL average:
 - Three-season average: -23.1% vs. NHL average
-- 95% bootstrapped confidence interval: [-42.2%, -2.4%] - does not cross zero
+- 95% bootstrapped confidence interval: [-42.2%, -2.4%] (bootstrapped ci's can vary a little between runs due to the randomness of the process) - does not cross zero
 - Pattern is consistent and worsening: 2022–23: -9.8%, 2023–24: -30.3%, 2024–25: -32.3%
 - Finnish players rank last among all analyzed nationalities in blue line efficiency
 
@@ -94,17 +94,11 @@ analysis-on-finnish-nhlers-shooting-efficiency/
 │   ├── 02_eda.ipynb                # Exploratory data analysis
 │   └── 03_zone_analysis.ipynb      # Zone-level comparison
 │
-├── src/
-│   ├── data_loader.py
-│   ├── preprocessing.py
-│   ├── analysis.py
-│   └── visualization.py
-│
-├── visualizations/
-├── reports/
+├── visualizations/ # Publishable charts
+|
 ├── docs/
 │   └── AI_WORKFLOW.md
-│
+|
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -116,8 +110,8 @@ analysis-on-finnish-nhlers-shooting-efficiency/
 |------|---------|
 | Python 3.11 | Core language |
 | pandas | Data manipulation and aggregation |
-| plotly / matplotlib | Visualizations |
-| scipy & numpy | Bootstrapping |
+| matplotlib | Visualizations |
+| numpy | Bootstrapping |
 | Jupyter Notebook | Interactive analysis environment |
 | Git / GitHub | Version control and portfolio presentation |
 | Claude | AI-workflows |
@@ -148,14 +142,5 @@ Incoming MSc. (sep. 2026-), Business Analytics at Aalto University
 
 Shot data from [MoneyPuck](https://moneypuck.com). 
 Free to use for non-commercial and research purposes, credit MoneyPuck.com.
-
-## Analytics skills demonstrated
-- Data cleaning and processing
-- Exploratory data analysis
-- Statistical inference and uncertainty estimation
-- Bootstrapping
-- Group-level comparative analysis
-- Data visualization
-- Reproducible analytical workflows
 
 
